@@ -1,7 +1,7 @@
 var expect = require('chai').expect;
 var mtf = require('../lib/moveToFrontEncoder.js');
 
-describe("MoveToFront", function() {
+describe("MoveToFrontEncoder", function() {
   describe(".encode", function() {
     it("encodes a simple string", function() {
       var result = new mtf.MoveToFrontEncoder("nnbaaa").encoded;
